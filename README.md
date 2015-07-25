@@ -13,3 +13,5 @@ NPM_CMD="\"$NODE_EXE\" \"$PROGRAMFILES\\npm\\3.1.0\\node_modules\\npm\\bin\\npm-
 
 ### There Be Dragons
 Before you install npm@3 and use it in production, be warned that this is still beta software (as of July 2015), with potentially a bunch of breaking changes and unknown bugs. Obviously, the whole node community and npm are working hard to get it production-ready as quickly as possible. To quote npm: "During that time we will still be doing npm@2 releases, with npm@2 tagged as latest and next. We'll also be publishing new releases of npm@3 as npm@3.0-next and npm@3.0-latest alongside those versions until we're ready to switch everyone over to npm@3."
+
+Please note that using this script means that your npm version is locked until you change this script. If you'd like to check which versions of npm are available, simply open up the debug console of your web app (available at `yoursite.scm.azurewebsites.net`) and `cd` into `D:\Program Files (x86)\npm\`, where you'll find all preinstalled versions of npm.
